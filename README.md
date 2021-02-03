@@ -7,9 +7,11 @@ This analysis reviews market activity from 2017 and 2018 stocks.
 
 ----
 ## Overview
-This code analyzes stock history in 2017 and 2018. The ticker (stock identifier), transaction date, prices at time of opening, daily high, daily low, closing, and adjusted close; as well as the volume traded were recorded. Using this information, we aggregated the Total Daily Volume (total number of stocks traded in each year) and Return (earliest price vs the latest closing price) of each ticker.
+This code analyzes stock history in 2017 and 2018. The ticker, transaction date, prices at market opening, daily high, daily low, market close, and adjusted close; as well as the volume traded were recorded. Using this information, we aggregated the Total Daily Volume (total number of stocks traded in each year) and Return (earliest price vs the latest closing price) of each ticker per year.
 
+The refactored VBA processes data from each year - as indicated by the user - and highlight positive returns in green, and negative returns in red.
 
+----
 ## Results: 
 The refactored code took 0.21 seconds to run the 2017 data, and 0.16 seconds to run the 2018 data.
 
@@ -29,6 +31,7 @@ Original 2017 Result:
 
 ![Original 2017 Result](https://github.com/emilymcdaniel/stock-analysis/blob/master/Resources/VBA_Challenge_2017_original.PNG?raw=true)
 
+----
 ## Summary
 ### What are the advantages or disadvantages of refactoring code?
 Advantages of using refactored code include: 
