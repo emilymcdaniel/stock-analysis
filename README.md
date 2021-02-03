@@ -9,7 +9,7 @@ This analysis reviews market activity from 2017 and 2018 stocks.
 ## Overview
 This code analyzes stock history in 2017 and 2018. The ticker, transaction date, prices at market opening, daily high, daily low, market close, and adjusted close; as well as the volume traded were recorded. Using this information, we aggregated the Total Daily Volume (total number of stocks traded in each year) and Return (earliest price vs the latest closing price) of each ticker per year.
 
-The refactored VBA processes data from each year - as indicated by the user - and highlight positive returns in green, and negative returns in red.
+In the discussion below, the advantages of refactoring code are explored. Both versions process data from each year, as indicated by the user, and format results.
 
 ----
 ## Results: 
